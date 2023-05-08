@@ -1,0 +1,29 @@
+# conda env create -f environment.yml
+name: bootcamp-env
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python
+  - pip
+  - tensorflow
+  - pip:
+    - numpy
+    - pandas
+    - scikit-learn
+    - scipy>=1.10.1
+    - torch>=2.0.0
+    - torchaudio>=2.0.1
+    - torchvision>=0.15.1
+    - tornado>=6.3.1
+    - tqdm>=4.65.0
+    - nltk>=3.8.1
+    - notebook>=6.5.4
+    - matplotlib>=3.7.1
+    - matplotlib-inline>=0.1.6
+    - ipykernel>=6.22.0
+    - ipython==8.12.1
+    - jupyter
+    - jupyterlab
+    - keras
