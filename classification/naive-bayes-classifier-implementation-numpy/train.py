@@ -1,5 +1,5 @@
-import TextClassification.NaiveBayes.src.dataset as dataset
-import TextClassification.NaiveBayes.src.naivebayes as nb
+import dataset as dataset
+import naivebayes as nb
 
 data = dataset.SentimentDataset()
 data.load_data()

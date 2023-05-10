@@ -1,4 +1,5 @@
 # conda env create -f environment.yml
+# conda env remove -n bootcamp-env 
 name: bootcamp-env
 channels:
   - conda-forge
@@ -27,3 +28,5 @@ dependencies:
     - jupyter
     - jupyterlab
     - keras
+    - tqdm
+    - transformers

@@ -1,5 +1,5 @@
 import numpy as np
-import TextClassification.NaiveBayes.src.dataset as dataset
+import dataset as dataset
 
 class NaiveBayes:
     def __init__(self):

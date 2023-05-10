@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
-import TextClassification.LogisticRegression.src.dataset as dataset
+import src.dataset as dataset
 
 class LogisticRegression:
 
