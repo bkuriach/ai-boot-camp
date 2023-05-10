@@ -1,6 +1,9 @@
-import TextClassification.LogisticRegression.src.dataset as dataset
-import TextClassification.LogisticRegression.src.logisticregression as lr
+
 import numpy as np
+import os
+os.listdir()
+import src.dataset as dataset
+import src.logisticregression as lr
 
 data = dataset.SentimentDataset()
 data.load_data()
