@@ -7,6 +7,8 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 import numpy as np
 import pandas as pd
 from nltk.corpus import twitter_samples
+# import nltk
+# nltk.download('all')
 import re
 from nltk.corpus import stopwords
 
